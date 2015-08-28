@@ -1,0 +1,37 @@
+@import "bourbon";
+@import "neat";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+background-color: #D5DDFF;
+color: black;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+}
+button {
+    border: 1px solid black;
+    font-size: 1em;
+}
+.state {
+    display: block;
+}
+.icon {
+    display: block;
+}
+.temp {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
