@@ -1,8 +1,12 @@
 
+<h1>How's the Weather?</h1>
+
 <div class="currently">
-    <span class="state">It is currently {{model.currently.summary}}.</span>
-    <img src="{{ model.currently.icon }}" alt="icon">
-    <span class="temp">{{model.currently.temperature}}</span>
+    <span class="icon">
+        {{sky-icon height="100" width="100" icon=model.currently.icon color="black" class="icon2"}}
+    </span>
+    <span class="state">{{model.currently.summary}}</span>
+    <span class="temp">{{model.currently.temperature}}&ordm;</span>
 </div>
 
 {{outlet}}
